@@ -11,6 +11,5 @@ pushd xentmp/Linux
 os_minorver="04" ./install.sh -d "ubuntu" -m "12" -n
 
 popd
-
 umount -l xentmp
 rm -rf xentmp
